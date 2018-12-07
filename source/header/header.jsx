@@ -3,14 +3,14 @@ import React from 'react';
 import styles from './header.sass';
 
 const Header = props => {
-    const {nickname, age, name, position, location} = props;
+    const {nickname, age, name, role, location} = props;
     return (
         <div className={styles.header}>
 					<div className={styles.header_l}>
 						<button className={`${styles.btn} ${styles.btn_black}`}>Back</button>
 						<div className={styles.bio}>
 							<h3>{nickname} {age}</h3>
-							<span>{name}, {position}, {location}</span>
+							<span>{name}, {role}, {location}</span>
 						</div>
 					</div>
 					<div className={styles.header_r}>

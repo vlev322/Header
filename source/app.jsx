@@ -11,7 +11,7 @@ class App extends Component {
 					nickname='User'
 					age='22'
 					name='Tom Toizer'
-					position='Content Manager'
+					role='Content Manager'
 					location='Vilnius'
 					/>
     );
